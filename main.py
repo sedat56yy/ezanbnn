@@ -8,8 +8,12 @@
 # ╚══════════════════════════════════════════════╝
 # Kurulum: pip install requests pytz
 
-from json, os, threading, time, re
-frfromatetime import datetime, timedelta
+import json
+import os
+import threading
+import time
+import re
+from datetime import datetime, timedelta
 import requests
 
 BOT_TOKEN   = os.environ.get("BOT_TOKEN", "8566312208:AAEFaLcdKsTnxe2zIqvQggS9riRcoIyeaAc")
