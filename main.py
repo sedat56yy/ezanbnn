@@ -12,7 +12,7 @@ from json, os, threading, time, re
 frfromatetime import datetime, timedelta
 import requests
 
-BOT_TOKEN   = os.environ.get("BOT_TOKEN", "8695515506:AAHmDqO0a7pdaBFJppwjtuSXQ40c47TPYvs")
+BOT_TOKEN   = os.environ.get("BOT_TOKEN", "8566312208:AAEFaLcdKsTnxe2zIqvQggS9riRcoIyeaAc")
 ADMIN_IDS   = [583994825]
 DATA_FILE   = "ezan_data.json"
 LOG_FILE    = "ezan_log.json"
